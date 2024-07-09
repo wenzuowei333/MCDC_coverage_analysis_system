@@ -1,0 +1,19 @@
+public class com.example.SampleCode_v2 {
+
+    public static void main(String[] args) {
+        // 简单的if语句
+        if (CodeInstrumentor.logCondition("x > 3", x > 3)) {
+            System.out.println("x is greater than 3");
+        }
+        // 带有嵌套的if语句
+        if (CodeInstrumentor.logCondition("x > 3", x > 3)) {
+            if (CodeInstrumentor.logCondition("y > 8", y > 8)) {
+                System.out.println("x and y are both greater than 3");
+            } else {
+                System.out.println("x is greater than 3 but y is not");
+            }
+        } else {
+            System.out.println("x is not greater than 3");
+        }
+    }
+}

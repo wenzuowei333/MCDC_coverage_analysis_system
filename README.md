@@ -31,7 +31,7 @@
 
 3. 进入`generator` 包中的`MCDCAnalyzer` 类
 
-   ![](image/image_XIH_LYmGD9.png)
+   ![](https://gitee.com/wenzuowei/warehouse/raw/master/pictures/image_XIH_LYmGD9.png)
 
 4. 配置待测试代码的路径和代码语言（共支持`Java`,`python`,`C语言`）
 
